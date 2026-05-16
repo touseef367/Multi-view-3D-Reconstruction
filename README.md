@@ -1,8 +1,6 @@
 # 3D Reconstruction (COLMAP + OpenCV + Open3D)
 
-Master’s course project: this repository was developed as part of a Master’s-level coursework project.
-
-This is a course project for my master program. It implements a classical multi-view 3D reconstruction workflow:
+It implements a classical multi-view 3D reconstruction workflow:
 
 1. **Camera calibration / pose estimation (SfM)** with COLMAP (intrinsics + extrinsics).
 2. **Stereo rectification** for selected image pairs.

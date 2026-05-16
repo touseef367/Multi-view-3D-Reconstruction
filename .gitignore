@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Data
+# NOTE: dataset images and COLMAP TXT model files may be included in this repo.
+# Generated reconstruction artifacts under data/output are ignored (they can exceed GitHub limits).
+
+# Generated outputs
+data/output/
+
+# Keep the placeholder if needed
+!/data/images/.gitkeep
+
+# Common generated artifacts (if saved outside data/output)
+*.ply
+*.pcd
+*.obj
+*.mtl
+*.stl
+
+# If you use a separate COLMAP workspace via self_calibration_colmap.py
+colmap_workspace/
+colmap_workspace_*/
+
+# Jupyter (if you add notebooks later)
+.ipynb_checkpoints/

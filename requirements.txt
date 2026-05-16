@@ -1,0 +1,7 @@
+numpy
+opencv-python
+open3d
+matplotlib
+
+# Optional: only needed for self_calibration_colmap.py, and requires a compatible COLMAP install.
+pycolmap
